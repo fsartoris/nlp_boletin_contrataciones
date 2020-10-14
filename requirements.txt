@@ -1,0 +1,9 @@
+pymysql
+requests
+beautifulsoup4
+lxml
+tweepy
+stop_words
+spacy
+unidecode
+cryptography

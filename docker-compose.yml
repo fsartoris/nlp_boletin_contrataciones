@@ -1,0 +1,20 @@
+version: "3"
+services:
+  parser-boletin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data      
+    environment:
+        - DB_DATABASE=""
+        - DB_USER=""
+        - DB_PASSWORD=""
+        - DB_HOST=127.0.0.1
+        - TW_CONSUMER_KEY=""
+        - TW_CONSUMER_SECRET=""
+        - TW_ACCESS_TOKEN=""
+        - TW_ACCESS_SECRET=""
+        - SET_CONTAINER_TIMEZONE=true
+        - CONTAINER_TIMEZONE=America/Argentina/Buenos_Aires
+    network_mode: "host"
