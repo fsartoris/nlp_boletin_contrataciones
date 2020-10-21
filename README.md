@@ -10,6 +10,11 @@ La idea inicial es poder parsear dia a dia las contrataciones que se publican en
 - Tweepy
 - Docker 
 
+### Resultados?
+
+En este [repositorio](https://github.com/fsartoris/boletin_contrataciones) estan los resultados del proceso diario. 
+En esta [cuenta de twitter] (https://twitter.com/bot_gov) se pueden ver las publicaciones diarias.
+
 License
 ----
 
